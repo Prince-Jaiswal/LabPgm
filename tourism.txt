@@ -1,0 +1,535 @@
+[9:43 am, 26/11/2021] Pappu Sah: <TextView
+
+        android:id="@+id/tv2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="serif"
+
+        android:text="NEPAL"
+
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+
+        android:textSize="35dp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.092" />
+
+ 
+
+    <ImageView
+
+        android:id="@+id/nepal"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="300dp"
+
+        android:src="@drawable/nepal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.292" />
+
+ 
+
+    <TextView
+
+        android:id="@+id/tv"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="serif"
+
+        android:text="The Nepal Himalaya is the ultimate goal for mountain lovers. Some of the Himalaya’s most iconic and accessible hiking is on offer here, with rugged trails to Everest, the Annapurnas and beyond. "
+
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.737" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+[9:43 am, 26/11/2021] Pappu Sah: <TextView
+
+        android:id="@+id/loginp"
+
+        android:layout_width="200dp"
+
+        android:layout_height="57dp"
+
+        android:text="Login page"
+
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+
+        android:textSize="34sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.137" />
+
+ 
+
+    <TableLayout
+
+        android:id="@+id/tableLayout"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.348">
+
+ 
+
+        <TableRow
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp">
+
+ 
+
+            <TextView
+
+                android:id="@+id/uname1"
+
+                android:layout_width="125dp"
+
+                android:layout_height="40dp"
+
+                android:text="Username"
+
+                android:textAlignment="center"
+
+                android:textColor="#000000"
+
+                android:textSize="22dp"
+
+                android:textStyle="bold" />
+
+ 
+
+            <EditText
+
+                android:id="@+id/uname2"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+
+                android:hint="Enter your username"
+
+                android:textColor="#000000"
+
+                android:textSize="22dp" />
+
+        </TableRow>
+
+ 
+
+        <TableRow
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp">
+
+ 
+
+            <TextView
+
+                android:id="@+id/pwd"
+
+                android:layout_width="125dp"
+
+                android:layout_height="40dp"
+
+                android:text="Password"
+
+                android:textAlignment="center"
+
+                android:textColor="#000000"
+
+                android:textSize="22dp"
+
+                android:textStyle="bold" />
+
+ 
+
+            <EditText
+
+                android:id="@+id/pwd2"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+
+                android:hint="Enter your password"
+
+                android:textColor="#000000"
+
+                android:textSize="22dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+ 
+
+    <Button
+
+        android:id="@+id/btn"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="LOGIN"
+
+        android:textAlignment="center"
+
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.675" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+[9:43 am, 26/11/2021] Pappu Sah: <TextView
+
+        android:id="@+id/tv"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="serif"
+
+        android:text="TRAVELOPEDIA"
+
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+
+        android:textSize="35dp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.023" />
+
+ 
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="300dp"
+
+                android:src="@drawable/i1"/>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="300dp"
+
+                android:layout_marginTop="20dp"
+
+                android:src="@drawable/i4"/>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="300dp"
+
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/i3"/>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="300dp"
+
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/i2"/>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="300dp"
+
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/i5"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+ 
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+[9:43 am, 26/11/2021] Pappu Sah: ublic class Tourist_Last extends AppCompatActivity {
+
+ImageView iv;
+
+    @Override
+
+   protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_tourist_last);
+
+ 
+
+        iv=findViewById(R.id.nepal);
+
+        String uri="https://nepaltourism.org/";
+
+        iv.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Intent i=new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+
+                startActivity(i);
+
+            }
+
+        });
+
+    }
+
+}
+
+[9:43 am, 26/11/2021] Pappu Sah: public class MainActivity extends AppCompatActivity {
+
+ 
+
+EditText uname,pwd;
+
+Button login;
+
+    @Override
+
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
+
+ 
+
+        uname=findViewById(R.id.uname2);
+
+        pwd=findViewById(R.id.pwd2);
+
+        login=findViewById(R.id.btn);
+
+ 
+
+        login.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                String s1,s2;
+
+                s1=uname.getText().toString();
+
+                s2=pwd.getText().toString();
+
+                if(s1.equals("MuskanAgrawal") && s2.equals("m123")){
+
+                    Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_LONG).show();
+
+                Intent i=new Intent(getApplicationContext(),Home_page.class);
+
+                i.putExtra("user",s1);
+
+                startActivity(i);}
+
+                else
+
+                {
+
+                    Toast.makeText(getApplicationContext(),"Login Unsuccessful",Toast.LENGTH_LONG).show();
+
+                }
+
+            }
+
+        });
+
+    }
+
+}
+
+[9:43 am, 26/11/2021] Pappu Sah: package com.example.login;
+
+ 
+
+import androidx.appcompat.app.AppCompatActivity;
+
+ 
+
+import android.content.Intent;
+
+import android.os.Bundle;
+
+import android.view.View;
+
+import android.widget.TextView;
+
+ 
+
+public class Main_tourist_page extends AppCompatActivity {
+
+TextView tv;
+
+    @Override
+
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main_tourist_page);
+
+ 
+
+        tv=findViewById(R.id.tv);
+
+        tv.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Intent i=new Intent(getApplicationContext(),Tourist_Last.class);
+
+                startActivity(i);
+
+            }
+
+        });
+
+    }
+
+}
